@@ -1,0 +1,533 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+body 
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: "poppins", sans-serif;
+    //background: url(https://codingiitg.github.io/media/images_homepage/home.svg);
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 19px;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  .navbar a:hover
+  {
+    cursor: pointer;
+    color:rgb(211, 211, 0);
+  }
+  #compname
+  {
+    float: left;
+    font-size: 19px;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+
+  .but1 {
+    float: right;
+    background-color: #51a2ff;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    margin-top: 11px;
+    padding: 5px;
+    font-size: 15px;
+    margin-right: 80px
+  }
+
+.topblock
+{
+    margin-left: 100px;
+    margin-top: 140px;
+    margin-right: 0;
+    float: left;
+
+}
+
+#contemplate
+{
+    color: #51a2ff;
+    font-size: 36px;
+}
+
+#browse
+{
+    font-size: 27px;
+    letter-spacing: 1.3px;
+}
+
+.normal
+{
+    font-size: 23px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.but2 {
+  margin-right: 15px;
+    background-color: #51a2ff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    margin-top: 11px;
+    padding: 5px;
+    font-size: 21px;
+  }
+
+.semicircle
+{
+    
+    float: right;
+    top: 50%;
+    left: 50%;
+    transform: translate(15%);
+    height: 350px;
+    width: 700px;
+    border-radius:  0 0 350px 350px;
+    background-color: #51a2ff;
+}
+
+
+.reviews
+{
+    background: rgba(124, 163, 155, 0.17);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+
+    margin-top:530px;
+    padding-top: 70px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 70px;
+    color:rgb(77, 77, 77);
+    letter-spacing: 1.4px;
+    text-align: justify;
+}
+
+video
+{
+    margin-top: 80px;
+    object-fit: fill;
+}
+
+.block {
+    float: left;
+    -webkit-box-shadow: 0px 0px 20px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 3px 1.5px rgba(0, 0, 0, 0.4);
+  
+    background: #fff;
+    padding: 0px;
+    //margin: 10px;
+    margin-left: 28px;
+    margin-top: 70px;
+    transition: transform 0.5s;
+    border-radius: 0px;
+    overflow: hidden;
+    width: 28%;
+    margin-right: 30px;
+  }
+
+  .image {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .image1 {
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+  }
+  .middle {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .image:hover .image1 {
+    filter: brightness(50%);
+    cursor: pointer;
+  }
+  .image:hover .middle {
+    opacity: 1;
+  }
+
+  .text8 {
+    background-color: transparent;
+    border: 3px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    padding: 5px 5px;
+  }
+
+  .text8:hover
+  {
+      cursor: pointer;
+  }
+
+  .lists
+  {
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.2);
+    padding: 18px;
+      float: left;
+      margin-left: 42px;
+      margin-top: 90px;
+      font-size: 20px;
+      //background: rgba(0,0,0,0.04);
+      transition: transform 0.3s ease;
+      
+  }
+
+  .lists:hover
+  {
+    transform:scale(1.01);
+  }
+
+  .strategies
+  {
+    margin-top: 70px;
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: justify;
+  }
+  #strategy
+  {
+    font-size: 26px;
+    //color: #127bf3;
+  }
+  #content
+  {
+    font-size: 19px;
+  }
+
+  form {
+    margin-top: 120px;
+    margin-right: 60px;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    width: 400px;
+    border: 1px solid;
+    border-radius: 10px;
+    overflow: hidden;
+    //-webkit-box-shadow: 0px 0px 40px 9px rgba(0, 0, 0, 0.6);
+    //box-shadow: 0px 0px 40px 9px rgba(0, 0, 0, 0.4);
+  }
+
+  .head {
+    background: #298dff; /*rgb(0, 132, 255);*/
+    margin-bottom: 10px;
+    padding: 15px;
+  }
+  
+  .head h2,
+  p {
+    text-align: center;
+    color: white;
+  }
+  
+  .head p {
+    font-size: 12px;
+  }
+  
+  label {
+    margin-left: 20px;
+  }
+  
+  input,
+  textarea {
+    padding: 10px;
+    margin: 5px 20px 20px 20px;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  input:focus,
+  textarea:focus {
+    border: 1px solid rgb(0, 132, 255);
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  .butt3 {
+    outline: none;
+    background: #298dff; /*rgb(0, 132, 255);*/
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 10px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background: #6666ff; /*rgb(0, 105, 204);*/
+  }
+  .logo {
+    color: white;
+    font-size: 20px;
+  }
+
+  .Conclusion
+  {
+    padding-right: 70px;
+    margin-top: 120px;
+    float: left;
+    width: 40%;
+    //background: url(Capture.JPG);
+  }
+
+  .footer
+{
+  margin-top: 100px;
+    padding: 25px;
+    background-color: rgb(0, 0, 65);
+    color: white;
+}
+
+.blue
+{
+  margin-top:350px;
+  border-radius: 15px;;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  background-color: #3090fd;
+  color:white;
+}
+.butt4
+{
+background-color: black;
+color:white;
+padding:10px;
+border-radius: 10px;
+border:none;
+}
+
+.butt4:hover
+{
+  font-weight: bold;
+  cursor: pointer;
+  color: black;
+  background-color: white;
+}
+
+.but5 {
+  margin-left: 15px;
+    background-color: black;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    margin-top: 11px;
+    padding: 5px;
+    font-size: 21px;
+  }
+
+  .videoleft
+  {
+    float:left;
+    margin-top: 70px;
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: justify;
+  }
+
+  .lists2
+  {
+    border-radius: 10px;
+    border: 1px solid blue;
+    //-webkit-box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+      float: left;
+      margin-left: 46px;
+      margin-top: 90px;
+      font-size: 20px;
+      //background: rgba(0,0,0,0.04);
+      transition: transform 0.3s ease;
+      width: 18.5%;
+      
+  }
+
+  .open-button {
+  
+    background: transparent;
+    padding: 5px 20px;
+    border: none;
+    cursor: pointer;
+    z-index:1000;
+    position: fixed;
+    bottom: 16px;
+    right: 0px;
+    width: 100px;
+    outline:none;
+  }
+  
+  .ope-button {
+    
+    background: transparent;
+    padding: 5px 20px;
+    border: none;
+    cursor: pointer;
+    z-index:1000;
+    position: fixed;
+    bottom: 16px;
+    right: 0px;
+    width: 100px;
+    outline:none;
+  }
+  
+  .ope-button:hover {
+  background-color: transparent;
+  }
+  /* The popup chat - hidden by default */
+  .chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    margin-bottom: 90px;
+    //border: 3px solid #f1f1f1;
+    z-index: 1119;
+    
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    margin-right: 0px;
+    background: url(chatwall2.jpg);
+    float: right;
+    border-radius: 15px;
+  }
+  
+  /* Full-width textarea */
+  .form-container textarea {
+    width: 95%;
+    height: 1%;
+    padding: 6px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+    border-radius: 10px;
+    
+  }
+  
+  /* When the textarea gets focus, do something */
+  .form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit/send button */
+  .form-container .btn {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+  /* Add a red background color to the cancel button */
+   .cancel {
+    background-color: transparent;
+    
+    padding: 10px 20px;
+    
+    margin-right: 50px;
+    border:none;
+    outline:none;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover,  {
+    opacity: 1;
+  }
+  .open-button:hover
+  {
+    transition: transform 0.5s ease;
+    transform: scale(1.05);
+    background-color: transparent;
+  }
+  
+  /*.overview
+  {
+    padding: 30px;
+    padding-left: 65px;
+   
+    float: left;
+    text-align: justify;
+    background: #08938b;
+    color: white;
+  }
+  .overvimage
+  {
+    padding-top: 60px;
+    padding-left: 50px;
+    background: #08938b;
+  }*/
+  
+  
+  .contactno
+  {
+    float: left;
+    position: relative;
+    margin-right: 92px;
+    margin-left: 50px;
+    line-height: 1.5;
+    padding: 0px;
+  }
+  .start
+  {
+    float: left;
+    position: relative;
+    margin-right: 92px;
+    margin-left: 50px;
+    line-height: 1.5;
+    padding: 0px;
+  }
